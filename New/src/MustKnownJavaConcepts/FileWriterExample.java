@@ -8,17 +8,16 @@ public class FileWriterExample {
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		
-		//1.File Location 2. File Content
+		String location = "UseFileWriter.txt";
+		String Content  = "File Writing option";
 		
-		 String location = "UsingFileWriter.txt";
-		 String content = "Selenium Framework";
-		 
-		 FileWriter fileWriter = new FileWriter(location);
-		 
-		 fileWriter.write(content);
-		 
-		 fileWriter.close();
-		 
+		FileWriter filewriter = new FileWriter(location);
+		filewriter.write(Content);
+		
+		filewriter.close();
+		
+		System.out.println("File Write Process Done");
+		
 
 	}
 

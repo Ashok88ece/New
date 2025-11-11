@@ -13,6 +13,8 @@ public class TwoDimensionalArray {
 		school[1][1] = 48;
 		System.out.println(school[0][1]);
 		
+		
+		
 	}
 
 }

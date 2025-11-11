@@ -7,9 +7,13 @@ public abstract class car {
 	
 	public abstract void companyvault() ;
 	
-	public void employees() {
+	public abstract void carlaunch();
+	
+	public abstract void evehicle();
+	
+	public static void employees() {
 		
-		System.out.println("Employees");
+		System.out.println("Employees common for both BMW & Benz");
 	}
 
 }

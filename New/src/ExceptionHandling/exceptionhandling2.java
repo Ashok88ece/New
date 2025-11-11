@@ -31,8 +31,12 @@ public class exceptionhandling2 {
 	
 		finally {
 			
-			System.out.println("Finally Block");
+			//System.out.println("Finally Block");
 			System.out.println("Program Ends");
+			
+			int x=10;int y=10;
+			int sum=x+y;
+			System.out.println(sum);
 		}
 	}
 

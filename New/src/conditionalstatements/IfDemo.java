@@ -5,7 +5,7 @@ public class IfDemo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int i=60;
+		int i=40;
 		
 		if(i<70) {
 			

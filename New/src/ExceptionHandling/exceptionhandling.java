@@ -13,12 +13,14 @@ public class exceptionhandling {
 
 		}
 		
-		catch(ArithmeticException e){
+		catch(Exception e){
 			
 			System.out.println("Something went wrong please check exception"+e.getMessage());
-			System.out.println("Seems You have provided value 0,Please provide more than 0");
+			//System.out.println("Seems You have provided value 0,Please provide Non Zero value");
 			
 		}
+		
+		
 	System.out.println("End");
 	}
 

@@ -27,7 +27,7 @@ public class Mydriver {
 		// TODO Auto-generated method stub
 		
 		Mydriver obj1 = new Mydriver();
-		//obj1.display();
+		obj1.display();
 		
 	}
 
