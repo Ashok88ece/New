@@ -1,0 +1,20 @@
+package JavaPrograms;
+
+public class DuplicateInArrays {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int[] number= {1,2,3,4,2,1,3,4,5,6,7};
+		
+		
+		for(int i=0;i<number.length;i++) {
+			for(int j=i+1;j<number.length;j++) {
+				if(number[i]==number[j]) {
+					System.out.println("Duplicate :"+number[i]);
+				}
+			}
+		}
+	}
+
+}

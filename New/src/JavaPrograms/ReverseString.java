@@ -12,7 +12,7 @@ public class ReverseString {
 		string.reverse();
 		
 		System.out.println("Given String:"+str);
-		System.out.println("Reversed String:"+string.reverse());
+		System.out.println("Reversed String:"+string);
 
 	}
 

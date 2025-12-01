@@ -8,7 +8,7 @@ public class StringPalindrome {
 		
 		String str = "ada";
 		
-		String rev = new StringBuilder(str).reverse().toString();
+		String rev = new StringBuffer(str).reverse().toString();
 		
 		if(str.equals(rev)) {
 			System.out.println("Given String is Palindrome:"+str);
