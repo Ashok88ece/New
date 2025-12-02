@@ -9,7 +9,7 @@ public class ReverseString {
 		
 		StringBuffer string = new StringBuffer(str);
 		
-		string.reverse();
+		//string.reverse();
 		
 		System.out.println("Given String:"+str);
 		System.out.println("Reversed String:"+string);

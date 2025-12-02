@@ -10,10 +10,10 @@ public class LargestNumberInArray {
 		int[] arr = {10,18,28,38,48,58,68,78,89,99};
 		
 		Arrays.sort(arr);
-		
-		int max = arr[arr.length-1];
-		
-		System.out.println("The Largest Number in Given Array is: "+max);
+
+        int max=arr[arr.length-1];
+
+        System.out.println("Largest Number in Given Array is:"+max);
 
 	}
 
