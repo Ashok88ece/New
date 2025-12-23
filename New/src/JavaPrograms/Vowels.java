@@ -13,12 +13,13 @@ public class Vowels {
 			
 			char ch = lowercase.charAt(i);
 			
-			if(ch=='a' || ch=='e'|| ch=='i'||ch=='o'||ch=='u') {
-				System.out.print(ch );
+			if(ch=='a' | ch=='e'| ch=='i'|ch=='o'|ch =='u') {
+				
+				System.out.print(" "+ch);
 			}
 		}
 		
-		System.out.println();
+	
 	}
 
 }

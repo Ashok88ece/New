@@ -7,9 +7,9 @@ public class ReverseString {
 		
 		String str = "Ashokkumar";
 		
-		StringBuffer string = new StringBuffer(str);
+		StringBuilder string = new StringBuilder(str);
 		
-		//string.reverse();
+		string.reverse();
 		
 		System.out.println("Given String:"+str);
 		System.out.println("Reversed String:"+string);

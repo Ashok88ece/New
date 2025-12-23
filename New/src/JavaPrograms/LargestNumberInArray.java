@@ -7,13 +7,14 @@ public class LargestNumberInArray {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int[] arr = {10,18,28,38,48,58,68,78,89,99};
+		int[] arr = {10,18,28,38,48,58,68,78,89,99,100};
 		
-		Arrays.sort(arr);
-
-        int max=arr[arr.length-1];
-
-        System.out.println("Largest Number in Given Array is:"+max);
+	    Arrays.sort(arr);
+	    
+	    int max = arr[arr.length-1];
+	    
+	    System.out.println("Largest Number in Given Array is:" +max);
+	
 
 	}
 
