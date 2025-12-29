@@ -9,7 +9,8 @@ public class FileWriterExample {
 		// TODO Auto-generated method stub
 		
 		String location = "UseFileWriter.txt";
-		String Content  = "File Writing option";
+		String Content  = "File Writing option\n new lines added";
+		
 		
 		FileWriter filewriter = new FileWriter(location);
 		filewriter.write(Content);

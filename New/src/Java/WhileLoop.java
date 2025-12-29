@@ -7,8 +7,8 @@ public class WhileLoop {
 		
 		int age=5;
 		
-		while(age<=18) {
-			System.out.println("Eligible for Voting :"+age);
+		while(age<18) {
+			System.out.println("Not Eligible for Voting :"+age);
 			age++;
 		}
 

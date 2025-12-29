@@ -2,11 +2,11 @@ package conditionalstatements;
 
 public class ifelseifdemo {
 	
-	public static String browser = "IE";
+//	public static String browser = "IE";
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-	
+	String browser = "IE";
 		
 		
 		if(browser.equalsIgnoreCase("chrome")) {

@@ -7,8 +7,12 @@ public class Main {
 		
 		Student obj = new Student();
 		obj.setName("Ashok");
+		obj.setAge(35);
+		obj.setPlace("Guindy");
 		
 		System.out.println(obj.getName());
+		System.out.println(obj.getage());
+		System.out.println(obj.getPlace());
 
 	}
 

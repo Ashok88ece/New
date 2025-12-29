@@ -4,9 +4,9 @@ public class compiletimedemo2 {
 	
 	public void add(int a) {
 		
-		int sum=0;
+		//int sum=0;
 		
-		System.out.println("Single argument print the same value:"+sum);
+		System.out.println("Single argument print the same value:"+a);
 		
 	}
 	

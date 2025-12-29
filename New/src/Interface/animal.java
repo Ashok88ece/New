@@ -2,8 +2,8 @@ package Interface;
 
 public interface animal {
 	
-	public void animalsound();
+	public abstract void animalsound();
 	
-	public void animalnature();
+	public abstract void animalnature();
 
 }

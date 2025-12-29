@@ -5,7 +5,7 @@ import java.util.HashSet;
 public class HashSetExample {
 	
 	//Not allowed Duplicates & No Guaranteed Order & Allow one Null Values
-	//NO Thread Sage
+	//NO Thread Sase
 	
   public static void main(String[] args) {
 	  
@@ -15,6 +15,7 @@ public class HashSetExample {
     cars.add("Ford");
     cars.add("BMW");  // Duplicate
     cars.add("Mazda");
+    cars.add(null);
     System.out.println(cars);
     
     

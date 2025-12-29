@@ -12,7 +12,7 @@ public class dog implements animal {
 	}
 	public static void main(String[] args) {
 		
-		dog obj=new dog();
+		animal obj=new dog();
 		obj.animalsound();
 		obj.animalnature();
 		

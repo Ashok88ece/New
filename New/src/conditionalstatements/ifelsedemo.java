@@ -7,7 +7,7 @@ public class ifelsedemo {
 	
 		String browser = "chrome";
 		
-		if(browser.equalsIgnoreCase("chrome")) {
+		if(browser.equalsIgnoreCase("Chrome")) {
 			
 			System.out.println("Test Case executed in chrome");
 		}
