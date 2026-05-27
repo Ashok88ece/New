@@ -9,14 +9,14 @@ public class exceptionhandling {
 		try {
 			int c=10/0;
 			
-			System.out.println("Division Result is:"+c);
+			System.out.println("Division Result is : "+c);
 
 		}
 		
 		catch(Exception e){
 			
-			System.out.println("Something went wrong please check exception"+e.getMessage());
-			//System.out.println("Seems You have provided value 0,Please provide Non Zero value");
+			//System.out.println("Something went wrong please check exception"+e.getMessage());
+			System.out.println("Seems You have provided value 0,Please provide Non Zero value");
 			
 		}
 		
